@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+      integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Todo app</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="title">Todo app</h1>
+      <form class="add-form">
+        <input type="text" placeholder="Add activity..." id="activity" />
+        <button class="btn" type="submit">
+          <i class="far fa-plus-square icon"></i>
+        </button>
+      </form>
+      <ul class="todo-lists">
+        <div class="todo-item">
+          <li class="todo-list">This is a todo</li>
+          <button class="btn">
+            <i class="far fa-trash-alt icon-small"></i>
+          </button>
+        </div>
+        <div class="todo-item">
+          <li class="todo-list">This is another todo</li>
+          <button class="btn">
+            <i class="far fa-trash-alt icon-small"></i>
+          </button>
+        </div>
+      </ul>
+    </div>
+  </body>
+</html>
